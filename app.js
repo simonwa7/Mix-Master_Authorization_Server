@@ -29,8 +29,8 @@ app.use(function(req, res, next) {
 });
 
 var spotifyApi = new SpotifyWebApi({
-  clientId : '6098f27b8bbe48f4a1f7c74e68bc2884',
-  clientSecret : 'f836f513f2f64d2bb6f4f3def24d30de'
+  clientId : '9fdce97d9986430483b011aaaea50638',
+  clientSecret : '4fadb8b5116b46159eeb217c89de86dc'
 });
 
 app.get('/', function(request, response) {
